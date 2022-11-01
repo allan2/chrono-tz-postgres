@@ -7,7 +7,7 @@
 A timezone type that can be converted to and from a custom Postgres type.
 
 This is the same as `chrono_tz::Tz`, but with `ToSql` and `FromSql` implemented.
-The custom Postgres type `tz` can be found [here](postgres_enum.sql).
+The custom Postgres type `tz` can be found [here](tz.sql).
 
 ## chrono-tz-postgres in action
 
