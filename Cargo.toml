@@ -1,0 +1,20 @@
+[package]
+name = "chrono-tz-postgres"
+version = "0.1.0"
+authors = ["Allan Zhang <al@ayz.ai>"]
+categories = ["date-and-time", "database"]
+description = "Timezone type with PostgreSQL support"
+edition = "2021"
+homepage = "https://github.com/allan2/chrono-tz-postgres"
+keywords = ["chrono", "tz", "timezone", "postgres", "postgresql"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/allan2/chrono-tz-postgres"
+rust-version = "1.60.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgres-types = { version = "0.2", features = ["derive"] }
+chrono-tz = { version = "0.7" }
