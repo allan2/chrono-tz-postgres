@@ -2,7 +2,7 @@
 
 [![crates.io](https://img.shields.io/crates/v/chrono-tz-postgres.svg)](https://crates.io/crates/chrono-tz-postgres)
 [![Released API docs](https://docs.rs/chrono-tz-postgres/badge.svg)](https://docs.rs/chrono-tz-postgres)
-[![msrv 1.61](https://img.shields.io/badge/msrv-1.61-dea584.svg)](https://github.com/rust-lang/rust/releases/tag/1.61.0)
+[![msrv 1.60](https://img.shields.io/badge/msrv-1.60-dea584.svg)](https://github.com/rust-lang/rust/releases/tag/1.60.0)
 
 A timezone type that can be converted to and from a custom Postgres type.
 
