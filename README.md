@@ -23,7 +23,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let tz: Tz = tzpg.into();
 
     // Tz can be serialized, unlike TzPg
-    serde_json::to_string(&tz).unwrap();
+    serde_json::to_string(&tz)?;
 
     // but TzPg can interface with Postgres
     let mut client = Client::connect("host=localhost user=postgres", NoTls)?;
