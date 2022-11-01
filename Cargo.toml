@@ -1,6 +1,6 @@
 [package]
 name = "chrono-tz-postgres"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Allan Zhang <al@ayz.ai>"]
 categories = ["date-and-time", "database"]
 description = "Timezone type with PostgreSQL support"
