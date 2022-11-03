@@ -1,12 +1,12 @@
 [package]
 name = "chrono-tz-postgres"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Allan Zhang <al@ayz.ai>"]
 categories = ["date-and-time", "database"]
 description = "Timezone type with PostgreSQL support"
 edition = "2021"
 homepage = "https://github.com/allan2/chrono-tz-postgres"
-keywords = ["chrono", "tz", "timezone", "postgres", "postgresql"]
+keywords = ["chrono-tz", "chrono", "tz", "postgres", "timezone"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/allan2/chrono-tz-postgres"

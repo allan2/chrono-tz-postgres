@@ -7,7 +7,7 @@ mod into_tz;
 ///
 /// Like [`chrono_tz::Tz`](chrono_tz::Tz), but is [`ToSql`](postgres_types::ToSql) and [`FromSql`](postgres_types::FromSql).
 ///
-/// The custom Postgres type `tz` can be found [here](https://github.com/allan2/tz.sql).
+/// The custom Postgres type `tz` can be found [here](https://github.com/allan2/chrono-tz-postgres/blob/main/tz.sql).
 #[allow(non_camel_case_types)]
 #[derive(ToSql, FromSql, Debug)]
 #[postgres(name = "tz")]
