@@ -5,9 +5,9 @@
 [![msrv 1.60](https://img.shields.io/badge/msrv-1.60-dea584.svg)](https://github.com/rust-lang/rust/releases/tag/1.60.0)
 
 A timezone type that can be converted to and from a custom Postgres type.
+This allows you to use typed timezones in PostgreSQL.
 
-This is the same as `chrono_tz::Tz`, but with `ToSql` and `FromSql` implemented.
-The custom Postgres type `tz` can be found [here](tz.sql).
+The custom Postgres enum `tz` is equivalent to the Rust enum `chrono_tz::Tz`. It can be found [here](tz.sql).
 
 ## chrono-tz-postgres in action
 
