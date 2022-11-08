@@ -12,7 +12,7 @@ The custom Postgres enum `tz` is equivalent to the Rust enum `chrono_tz::Tz`. It
 ## chrono-tz-postgres in action
 
 ```rust
-pub use chrono_tz::Tz;
+use chrono_tz::Tz;
 use chrono_tz_postgres::TzPg;
 use postgres::{Client, NoTls};
 
