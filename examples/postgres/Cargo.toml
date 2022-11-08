@@ -1,0 +1,12 @@
+[package]
+name = "postgres-example"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+chrono-tz-postgres = { path = "../" }
+chrono-tz = { version = "0.8", features = ["serde"] }
+serde = "1"
+serde_json = "1"
+postgres = "0.19"

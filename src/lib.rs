@@ -1,7 +1,7 @@
 use postgres_types::{FromSql, ToSql};
 
-mod from_tz;
-mod into_tz;
+mod from;
+mod into;
 
 /// A timezone type that can be converted to and from a custom Postgres type.
 ///
