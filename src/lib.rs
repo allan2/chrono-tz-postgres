@@ -297,6 +297,9 @@ pub enum TzPg {
     /// America/Chihuahua
     #[postgres(name = "America/Chihuahua")]
     America__Chihuahua,
+    /// America/Ciudad_Juarez
+    #[postgres(name = "America/Ciudad_Juarez")]
+    America__Ciudad_Juarez,
     /// America/Coral_Harbour
     #[postgres(name = "America/Coral_Harbour")]
     America__Coral_Harbour,

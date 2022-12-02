@@ -99,6 +99,7 @@ impl Into<Tz> for TzPg {
             Self::America__Cayman => Tz::America__Cayman,
             Self::America__Chicago => Tz::America__Chicago,
             Self::America__Chihuahua => Tz::America__Chihuahua,
+            Self::America__Ciudad_Juarez => Tz::America__Ciudad_Juarez,
             Self::America__Coral_Harbour => Tz::America__Coral_Harbour,
             Self::America__Cordoba => Tz::America__Cordoba,
             Self::America__Costa_Rica => Tz::America__Costa_Rica,

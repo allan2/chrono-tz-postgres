@@ -1,6 +1,6 @@
 [package]
 name = "chrono-tz-postgres"
-version = "0.1.3"
+version = "0.8.1"
 authors = ["Allan Zhang <al@ayz.ai>"]
 categories = ["date-and-time", "database"]
 description = "Typed timezones in Rust and PostgreSQL"
@@ -12,9 +12,6 @@ readme = "README.md"
 repository = "https://github.com/allan2/chrono-tz-postgres"
 rust-version = "1.60.0"
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 postgres-types = { version = "0.2", features = ["derive"] }
-chrono-tz = { version = "0.8" }
+chrono-tz = { version = "0.8.1" }

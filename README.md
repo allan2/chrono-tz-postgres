@@ -9,6 +9,8 @@ This allows you to use typed timezones in PostgreSQL.
 
 The custom Postgres enum `tz` is equivalent to the Rust enum `chrono_tz::Tz`. It can be found [here](tz.sql).
 
+The version number mirrors `chrono-tz`.
+
 ## chrono-tz-postgres in action
 
 ```rust
